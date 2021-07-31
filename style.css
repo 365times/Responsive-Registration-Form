@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  font-size: 30px;
+  text-transform: uppercase;
+  border-radius: 40px;
+  font-weight: bold;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+hr {
+  border: 2px solid;
+}
+
+legend {
+  font-size: 20px;
+  margin: 10px 0px;
+  font-weight: bold;
+}
+
+fieldset {
+  border: none;
+}
+
+header, .intro, button, footer {
+  text-align: center;
+}
+
+input:focus {
+  background-color: lightblue;
+  transition-duration: 0.8s;
+}
+
+input::placeholder {
+  text-align: right;
+  font-style: oblique;
+}
+
+.flexbox-item, select {
+  padding: 10px 15px;
+  margin: 8px 0;
+}
+
+#zip-code {
+  width: 50%;
+}
+
+textarea, button {
+  width: 100%;
+}
+
+textarea {
+  height:100px;
+}
+
+button {
+  background-color: green;
+  border: none;
+  color: white;
+  border-radius: 40px;
+  padding: 15px 32px;
+  font-size: 16px;
+  margin: 10px 0px;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #4CAF50; 
+  color: white;
+  cursor: pointer;
+}
+
+.copyright {
+  font-size: 12px;
+  font-style: oblique;
+}
+
+.flexbox-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 4px;
+}
+
+.flexbox-item2 {
+    flex: 1 50%;
+}
+
+.contact-box {
+  display: flex;
+  flex-flow: column;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    width: 50%;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+ .contact-box {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contact-box label {
+    flex-basis: 20%;
+  }
+  
+  .contact-box input {
+    flex-grow: 1;
+  }
+  
+  select {
+    width: 80%;
+  }
+  
+ .zip:last-child {
+   display: inline;
+}
+  #zip-code {
+    float: right;
+    width: 25%;
+  }
+  
+  .zip-label {
+    padding: 15px 0px;
+     display: inline-block;
+  }
+}
