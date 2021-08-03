@@ -120,7 +120,7 @@ button:hover {
   }
   
   .contact-box label {
-    flex-basis: 20%;
+    flex-basis: 35%;
   }
   
   .contact-box input {
@@ -128,7 +128,7 @@ button:hover {
   }
   
   select {
-    width: 80%;
+    width: 65%;
   }
   
  .zip:last-child {
