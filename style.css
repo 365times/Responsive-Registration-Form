@@ -45,10 +45,10 @@ input:focus, select:focus, textarea:focus {
   transition-duration: 0.8s;
 }
 
-input::placeholder {
+/* input::placeholder {
   text-align: right;
   font-style: oblique;
-}
+} */
 
 .flexbox-item, select {
   padding: 10px 15px;
