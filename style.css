@@ -129,17 +129,8 @@ button:hover {
   select {
     width: 65%;
   }
-  
- .zip:last-child {
-   display: inline;
-}
-  #zip-code {
-    float: right;
-    width: 25%;
-  }
-  
-  .zip-label {
-    padding: 15px 0px;
-     display: inline-block;
+    
+  .contact-box:last-child input {
+    max-width: 25%;
   }
 }
