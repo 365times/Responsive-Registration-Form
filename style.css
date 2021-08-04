@@ -55,7 +55,7 @@ input:focus, select:focus, textarea:focus {
   margin: 8px 0;
 }
 
-#zip-code {
+.contact-box:last-child input {
   width: 50%;
 }
 
@@ -115,7 +115,6 @@ button:hover {
   
  .contact-box {
     flex-flow: row nowrap;
-    justify-content: space-between;
     align-items: center;
   }
   
